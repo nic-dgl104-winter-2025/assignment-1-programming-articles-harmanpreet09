@@ -58,3 +58,15 @@ function processInput(input) {
   }
 }
 ```
+## Example 4: Consistent Style with Linters (Source: GitHub Docs)
+```
+// Original (Inconsistent Style)
+let sum=0;
+for(let i=0;i<10;i++){sum+=i;}
+
+// Corrected Version
+let sum = 0;
+for (let i = 0; i < 10; i++) {
+  sum += i;
+}
+```
