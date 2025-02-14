@@ -119,14 +119,11 @@ except Exception as e:
         return self.result
    ```
 5. Performance :- Efficient code runs quickly and uses resources effectively. Measure execution time to identify slow operations. For example:
-    ```
-    import time
-
+ ```
+import time
 start = time.time()
-
 # Code to be tested for performance
-
 end = time.time()
 print(f"Time elapsed: {end - start:.5f} seconds")
-     ```
+ ```
      
