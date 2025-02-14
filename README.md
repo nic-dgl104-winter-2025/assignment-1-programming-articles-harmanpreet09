@@ -93,3 +93,12 @@ except Exception as e:
     total_price = (price * quantity) * (1 + tax_rate)
     return total_price
    ``` 
+3. Organization :- Organized code is easy to maintain and extend. Each function should perform one clear task. This example shows how breaking tasks into functions improves structure:
+    ```
+    def process_data(data):
+    """Process data through filtering, transformation, and analysis."""
+    filtered_data = filter_data(data)
+    transformed_data = transform_data(filtered_data)
+    results = analyze_data(transformed_data)
+    return results
+    ```
