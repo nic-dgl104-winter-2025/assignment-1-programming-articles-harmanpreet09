@@ -70,3 +70,19 @@ for (let i = 0; i < 10; i++) {
   sum += i;
 }
 ```
+# Code Review Checklist
+1. Functionality :- The code should meet all requirements and handle errors gracefully. It should cover different scenarios, including edge cases. For example, the code below reads from a file, processes it, and handles errors if the file is missing:
+  ```
+try:
+    with open("inputfile.txt", "r") as f:
+        lines = f.readlines()
+
+    with open("outputfile.txt", "w") as f:
+        for line in lines:
+            f.write(line.strip().upper())
+
+except FileNotFoundError:
+    print("Input file not found")
+except Exception as e:
+    print(f"An error occurred: {e}")
+  ```   
