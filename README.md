@@ -85,4 +85,11 @@ except FileNotFoundError:
     print("Input file not found")
 except Exception as e:
     print(f"An error occurred: {e}")
-  ```   
+  ```
+2. Clarity :- Good code is easy to read and self-explanatory. Use descriptive variable names, proper comments, and consistent formatting. Here’s an example with clear naming and a simple structure:
+     ```
+def calculate_total_price(price, quantity, tax_rate):
+    """Calculate the total price, including tax."""
+    total_price = (price * quantity) * (1 + tax_rate)
+    return total_price
+     ``` 
