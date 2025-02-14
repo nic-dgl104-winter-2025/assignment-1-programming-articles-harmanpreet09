@@ -14,3 +14,19 @@ To make your code reviews effective:
 4. Check for Security Risks: Look for issues like unsafe user inputs
 5. Use Tools to Help: Linters and analyzers can catch simple errors automatically.
 6. Think About Edge Cases: Test how the code performs under unexpected conditions.
+# Code Examples and Reviews
+```
+// Original
+function sumArray(arr) {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+  return sum;
+}
+
+// Improved Version
+function sumArray(arr) {
+  return arr.reduce((acc, num) => acc + num, 0);
+}
+```
