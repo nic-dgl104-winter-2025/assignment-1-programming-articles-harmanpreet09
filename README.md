@@ -15,6 +15,7 @@ To make your code reviews effective:
 5. Use Tools to Help: Linters and analyzers can catch simple errors automatically.
 6. Think About Edge Cases: Test how the code performs under unexpected conditions.
 # Code Examples and Reviews
+## Refactoring for Efficiency (Source: Google Engineering Practices)
 ```
 // Original
 function sumArray(arr) {
@@ -28,5 +29,18 @@ function sumArray(arr) {
 // Improved Version
 function sumArray(arr) {
   return arr.reduce((acc, num) => acc + num, 0);
+}
+```
+## Example 2: Catching a Logical Bug (Source: Stack Overflow Blog)
+```
+// Original
+function isPositive(num) {
+  return num > 0;
+}
+console.log(isPositive(0)); // Returns false, but may be unexpected
+
+// Improved Version
+function isPositive(num) {
+  return num >= 0;
 }
 ```
