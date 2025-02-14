@@ -102,3 +102,19 @@ except Exception as e:
     results = analyze_data(transformed_data)
     return results
     ```
+4. Maintainability :- Well-maintained code is easy to test, modify, and debug. Follow consistent naming conventions and keep functions reusable. Here’s a simple calculator class with clear methods:
+ ```
+    class Calculator:
+    def __init__(self):
+        self.result = 0
+
+    def add(self, num):
+        """Add a number to the result."""
+        self.result += num
+        return self.result
+
+    def subtract(self, num):
+        """Subtract a number from the result."""
+        self.result -= num
+        return self.result
+   ```
