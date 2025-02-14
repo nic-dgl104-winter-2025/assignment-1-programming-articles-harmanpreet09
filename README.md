@@ -44,3 +44,17 @@ function isPositive(num) {
   return num >= 0;
 }
 ```
+## Example 3: Improving Security with Input Validation (Source: Atlassian Blog)
+```
+// Original
+function processInput(input) {
+  eval(input); // Dangerous!
+}
+
+// Secure Version
+function processInput(input) {
+  if (typeof input === 'string') {
+    console.log(input);
+  }
+}
+```
