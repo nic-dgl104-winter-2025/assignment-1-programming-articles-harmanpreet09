@@ -138,3 +138,13 @@ Gracefully Receiving code reviews can be challenging, especially when feedback i
 
 # Conclusion
 Code reviews are an essential part of the software development process, helping to improve code quality, catch bugs early, and promote knowledge sharing within teams. Regular code reviews ensure that standards are maintained, making the codebase more reliable, secure, and easier to maintain. They also provide an opportunity for developers to learn from each other, enhancing their skills and fostering collaboration. Embracing code reviews with a positive mindset not only benefits the project but also helps individual developers grow. As DGL 104 students, practicing code reviews will prepare you for future teamwork and professional development. Start small by reviewing code from classmates or contributing to open-source projects, and you’ll soon build confidence in both giving and receiving constructive feedback. Incorporating code reviews into your workflow is a valuable habit that will serve you well throughout your programming career.
+
+# Resources
+Google Engineering Practices: https://google.github.io/eng-practices/
+Atlassian Blog: https://www.atlassian.com/blog/
+GitHub Docs: https://docs.github.com/
+Stack Overflow Blog: https://stackoverflow.blog/
+Jenkins Documentation: https://www.jenkins.io/doc/
+Travis CI Documentation: https://docs.travis-ci.com/
+https://dev.to/documatic/the-art-of-code-review-1lo4
+https://chatgpt.com/
