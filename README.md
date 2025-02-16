@@ -16,6 +16,7 @@ To make your code reviews effective:
 6. Think About Edge Cases: Test how the code performs under unexpected conditions.
 # Code Examples and Reviews
 ## Refactoring for Efficiency (Source: Google Engineering Practices)
+The original code uses a for loop to sum an array, which works but is longer and less elegant. The improved version uses the reduce method, which is built into JavaScript and designed for exactly this kind of operation. It's more concise and typically easier to read, especially for developers familiar with modern JavaScript
 ```
 // Original
 function sumArray(arr) {
@@ -32,6 +33,7 @@ function sumArray(arr) {
 }
 ```
 ## Example 2: Catching a Logical Bug (Source: Stack Overflow Blog)
+The original code checks if a number is greater than 0, but this causes 0 to be treated as a negative number. The improved version checks if the number is greater than or equal to 0, which includes zero as a positive value, making the function more accurate and logically correct.
 ```
 // Original
 function isPositive(num) {
@@ -45,6 +47,7 @@ function isPositive(num) {
 }
 ```
 ## Example 3: Improving Security with Input Validation (Source: Atlassian Blog)
+The original code uses eval(), which is considered dangerous because it can execute arbitrary code, leading to security risks. The improved version validates the input type before processing, ensuring that only strings are handled, which is a safer practice.
 ```
 // Original
 function processInput(input) {
@@ -59,6 +62,7 @@ function processInput(input) {
 }
 ```
 ## Example 4: Consistent Style with Linters (Source: GitHub Docs)
+The original code has inconsistent spacing and uses var instead of let. The improved version corrects the formatting, making the code cleaner and easier to read, and uses let for block-scoped variables, which is recommended in modern JavaScript.
 ```
 // Original (Inconsistent Style)
 let sum=0;
