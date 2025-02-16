@@ -141,10 +141,17 @@ Code reviews are an essential part of the software development process, helping 
 
 # Resources
 Google Engineering Practices: https://google.github.io/eng-practices/
+
 Atlassian Blog: https://www.atlassian.com/blog/
+
 GitHub Docs: https://docs.github.com/
+
 Stack Overflow Blog: https://stackoverflow.blog/
+
 Jenkins Documentation: https://www.jenkins.io/doc/
+
 Travis CI Documentation: https://docs.travis-ci.com/
+
 https://dev.to/documatic/the-art-of-code-review-1lo4
+
 https://chatgpt.com/
