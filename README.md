@@ -130,4 +130,8 @@ start = time.time()
 end = time.time()
 print(f"Time elapsed: {end - start:.5f} seconds")
  ```
-     
+# Tools and Technologies for Code Reviews
+Code review tools play an essential role in modern software development by streamlining the review process and improving team collaboration. Popular platforms like GitHub, GitLab, and Bitbucket offer built-in features such as pull requests, inline commenting, and change tracking, making it easy for developers to suggest improvements and discuss changes directly in the code. Additionally, Continuous Integration/Continuous Deployment (CI/CD) tools like Jenkins and Travis CI help automate testing, linting, and other checks during the review process. These tools ensure that code meets quality standards before it is merged, catching errors early and saving time for the entire team.
+
+# Tips for Receiving Code Reviews
+Gracefully Receiving code reviews can be challenging, especially when feedback is critical, but it is essential to approach reviews with an open mind. Developers should see feedback as an opportunity to grow their skills and improve the overall quality of their work. It's important to stay calm, avoid taking feedback personally, and be willing to make changes. Asking clarifying questions when feedback is unclear helps ensure that suggested improvements are correctly implemented and fosters better communication between team members. Embracing code reviews with a positive attitude not only enhances personal development but also contributes to a more collaborative and efficient team environment.
